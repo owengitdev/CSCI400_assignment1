@@ -53,7 +53,6 @@ void investigate_data_types() {
 
     printf("char: value = %c, address = %p, size = %zu bytes\n",
            my_char, (void*)&my_char, sizeof(my_char));
-
 }
 
 // =============================================================================
@@ -150,9 +149,8 @@ void investigate_heap() {
            (void*)heap_int, *heap_int, sizeof(int));
     
     
-    
-    
     // TODO: Free the allocated memory using free(heap_int)
+    free(heap_int);
     // Note: After free(), the pointer still holds the address, but the memory
     // is no longer yours to use (we'll explore this more in Unit 3)
     
@@ -186,11 +184,11 @@ int main() {
     printf("Memory investigation complete! Now analyze the addresses:\n");
 
     printf("- Which addresses are highest? Lowest?\n");
-
+    printf("I think the highest addresses are in the heap, and the lowest addresses are in the text segment.\n");
     printf("- Do stack addresses increase or decrease in nested calls?\n");
-
+    printf("I think stack addresses decrease as we go deeper into nested calls.\n");
     printf("- Are heap addresses near stack or data segment addresses?\n");
-
+    printf(" ");
     printf("=============================================================\n");
     
     return 0;

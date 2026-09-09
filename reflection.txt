@@ -1,0 +1,33 @@
+In Python, what happens when you write x = 42? What is Python doing behind the scenes that you now see explicitly in C?
+
+Answer:
+
+Pick one Python feature (like lists, function calls, or object creation). Based on what you've learned about memory segments, 
+what do you think Python is doing automatically that C makes you do manually?
+
+Answer:
+
+
+Why might a systems programmer need to understand these memory segments when a Python developer doesn't?
+
+Answer:
+
+
+
+Memory Observations
+
+
+
+What patterns did you observe in the memory addresses? Were stack addresses higher or lower than heap addresses? 
+What about data segment?
+
+Answer: 
+
+
+What does "automatic" vs "dynamic" memory allocation mean now that you've seen both stack and heap?
+
+Answer: 
+
+How does understanding where variables live help explain variable lifetime and scope?
+
+Answer:
