@@ -1,16 +1,26 @@
+Python vs C Memory Model 
+
 In Python, what happens when you write x = 42? What is Python doing behind the scenes that you now see explicitly in C?
 
-Answer:
+Answer: I believe that Python might have save the value of what 'x' will be. I think that Python will save any number that in either in code name like 'x' or others.
+I generally see the difference in the 
+behind the scenes that i explicitly see in C language. The main difference is that you don't have to put any int, float and double in Python
+and in which is require in C since if printed with int, Double or float, It will result in error.
 
 Pick one Python feature (like lists, function calls, or object creation). Based on what you've learned about memory segments, 
 what do you think Python is doing automatically that C makes you do manually?
 
-Answer:
+Answer: I pick is Lists in Python and After learning about memory segments in C, I generally see the huge difference between how Python
+can do things within coding automatically while in C, You have to manually code in order to get the system to print out exactly
+for perfect results. I believe  that C wanted us to be innovative instead letting the Coding language like Python to do something
+automatically without any additional coding. 
 
 
 Why might a systems programmer need to understand these memory segments when a Python developer doesn't?
 
-Answer:
+Answer: System Programmer have to learn how memory segments since it requires more details in order for the code to print results perfectly while
+in Python, programmers don't have implemented any additional since Python is a easy coding language and way less challenging than C or other hard
+coding language. 
 
 
 
@@ -21,13 +31,22 @@ Memory Observations
 What patterns did you observe in the memory addresses? Were stack addresses higher or lower than heap addresses? 
 What about data segment?
 
-Answer: 
+Answer: The patterns that I observe within the memory addresses is that address can generate any random numbers and letters
+in which can be either higher or lower. All the memory addresses that is printed in the terminal is actually depend on the value.
+I think that Stack addresses are a bit higher than heap addresses since the value is printed out in negative numbers. For Data segment, I see that 
+the Address are a bit higher and the value is way higher than in stack addresses. 
 
 
 What does "automatic" vs "dynamic" memory allocation mean now that you've seen both stack and heap?
 
-Answer: 
+Answer: "automatic" memory allocation is when a memory is automatically 
+allocated and is freed by the compiler into the program stack while in "dynamic" memory allocation is about 
+allocating memory during the runtime instead of compiling. This is useful in case you need to know how memory you need in the program.
+So automatic is about the memory being automatically within the program while in dynamic is about knowing ahead of time in order to see
+how much memory you need within the program.
+
 
 How does understanding where variables live help explain variable lifetime and scope?
 
-Answer:
+Answer: I believe that understanding the variables live can help analyze the full lifetime and scope in order to fix any
+errors within the code.

@@ -118,7 +118,9 @@ void investigate_data_segment() {
     printf("global_counter: address = %p, value = %d\n", 
            (void*)&global_counter, global_counter);
     printf("static_value: address = %p, value = %d\n", 
-           (void*)&static_value, static_value);
+           (void*)&static_value, static_value); 
+           
+    // Implemented the printing of addresses and values for global_counter and static_value
 
 }
 
@@ -188,7 +190,7 @@ int main() {
     printf("- Do stack addresses increase or decrease in nested calls?\n");
     printf("I think stack addresses decrease as we go deeper into nested calls.\n");
     printf("- Are heap addresses near stack or data segment addresses?\n");
-    printf(" ");
+    printf("I think heap addresses are near the stack addresses.\n");
     printf("=============================================================\n");
     
     return 0;
